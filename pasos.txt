@@ -1,0 +1,15 @@
+1 crear HTML + contenido
+2 vincular carpetas e imagenes
+3 Crar carpeta css + archivo css
+4 Crear carpeta scss + archivo scss
+iniciar scss:
+ A npm init - gestor de paquetes de NODE
+ B npm install -g sass
+ C sass --watch scss:css
+ ctrl + c se detiene el watch
+ 5 crear carpeta scss
+  + styles.scss + _variables.scss
+  En stlyes poner @import "variables" para que importe a styles.scss
+  crear variables de: colores, fuentes, resoluciones
+  6 crear _comunes.scss
+ 

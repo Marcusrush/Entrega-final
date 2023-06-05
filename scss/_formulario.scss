@@ -1,0 +1,75 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    gap: $espacio-grande;
+
+}
+
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background-color: $color-pimario;
+    border: solid 2px $color-secundario;
+    border-radius: 5%;
+}
+
+.boton {
+   
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    border: solid 10px $color-terciario;
+    width: 200px;
+    padding: $espacio-mini;
+    background-color: rgb(26, 8, 180);
+    border-radius:  10px;
+   
+}
+
+.submit {
+        background-color: $color-pimario;
+        border: solid 2px $color-secundario;
+        border-radius: 10%;
+        &:hover {
+            background-color:$color-pimario;
+            color: $color-secundario;
+        }
+}
+
+.reset {
+        
+        background-color: $color-pimario;
+        border: solid 2px $color-secundario;
+        border-radius: 10%;
+        &:hover {
+            background-color:$color-pimario;
+            color: $color-secundario;
+        }
+}
+
+.texta {
+    height: 100px;
+    width: 300px;
+}
+
+.mapa {
+    max-width: 100%;
+}
+
+
+@media (min-width: $tablet) {
+    .form {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     align-items: center;
+     justify-items: center;
+    }
+   
+}
+
+
