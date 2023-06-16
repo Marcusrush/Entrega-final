@@ -13,7 +13,19 @@
    margin-right: 110px;
    justify-content: center;
    align-items: center;
-                    
+   
+                       
+}
+
+.card {
+   border-color: $color-secundario;
+   border: solid 3px;
+   color: $color-secundario;
+   &:hover {
+       color: $color-4
+   }
+   
+   
 }
 
 .card-title {
@@ -24,6 +36,10 @@
 .btn {
    text-align: center;
    margin-left: 40px;
+   color: $color-pimario;
+   &:hover {
+       color: $color-4
+   }
 
 }
 .ul {

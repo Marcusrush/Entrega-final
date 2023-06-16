@@ -200,6 +200,15 @@ footer .container-redes a {
   align-items: center;
 }
 
+.card {
+  border-color: #0aa5ff;
+  border: solid 3px;
+  color: #0aa5ff;
+}
+.card:hover {
+  color: rgb(6, 29, 238);
+}
+
 .card-title {
   text-align: center;
 }
@@ -207,6 +216,10 @@ footer .container-redes a {
 .btn {
   text-align: center;
   margin-left: 40px;
+  color: #ffffff;
+}
+.btn:hover {
+  color: rgb(6, 29, 238);
 }
 
 .ul {
