@@ -19,10 +19,8 @@ body {
     margin-left: 1%;
     justify-content: center;
     text-align: center;
-    
+   
 }
-
-
 
 .nav-link,
 .nav-link.active,
@@ -34,10 +32,7 @@ body {
 } 
 .navbar navbar-expand-lg {
     float:left;
-    position: static;
-    
-
-    
+    position: static;   
 }
 
 .navbar-toggler {
@@ -64,8 +59,7 @@ body {
 @media (min-width: $desktop){
     .carousel-item img {
         max-height: 50vh;
-         
-                
+                        
     } 
 }
 
@@ -89,7 +83,14 @@ body {
 }
 
 h3 {
-    margin-top: 0%;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    border: solid 2px;
+    padding-right: 0%;
+    border-radius: 18%;
+    margin-left: 1%;
+    justify-content: center;
     text-align: center;
     
          
