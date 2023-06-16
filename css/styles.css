@@ -98,6 +98,13 @@ footer .container-redes a {
   font-size: 50px;
 }
 
+.whatsapp {
+  position: fixed;
+  width: 50px;
+  bottom: 15px;
+  right: 0;
+}
+
 .body {
   display: flex;
   flex-direction: column;
