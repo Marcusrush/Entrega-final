@@ -8,65 +8,93 @@ body {
    
 }
 
+.nav-link 
+
+ {
+    background-color: rgb(238, 238, 238);
+    border: solid 2px;
+    padding-right: 1%;
+    border-radius: 18%;
+    margin: 1%;
+    margin-left: 1%;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
 
 .nav-link,
 .nav-link.active,
 .navbar-nav .nav-link.active {
     color: $color-secundario;
     &:hover {
-        color: $color-terciario;
+        color: $color-4
     }
 } 
 .navbar navbar-expand-lg {
-    float: right;
-}
+    float:left;
+    position: static;
+    
 
-.navbar-toggler {
-    background-color: rgb(173, 226, 222);
-}
-
-.fotos {
-    display: flex;
-    margin-bottom: 10px;
     
 }
 
-.carousel-item  img {
-    height: 300px;
-    max-width: 100%;
-}
-
-.carousel-item {
-    max-width: 150%;
+.navbar-toggler {
+    background-color: rgb(255, 255, 255);
 }
 
 
+.carousel-item  {
+    max-height: 60vh;
+    max-width: 80vh;
+}
 
-@media (min-width: $tablet){
-    .carousel-item img {
-        height: 50vh
-    } 
+.fotos {
+    max-width: 387px;
+    
+}
+
+.avion {
+    max-height: 40vh;
+    max-width: 40vh;
+
 }
 
 @media (min-width: $desktop){
     .carousel-item img {
-        height: 100 vh
+        max-height: 50vh;
+         
+                
     } 
 }
+
+
+@media (min-width: $tablet){
+    .carousel-item img {
+        max-height: 50vh;
+        
+    } 
+}
+
+
+
+
+
 .im1 { 	height: 150px;
 	border-radius: 100px;
 	max-width: 100%;
-	  
+    	  
 }
 
 .card-img-top {
     height: 150px;
 }
 
-
 h3 {
-    margin-top: 5%;
+    margin-top: 100%;
     text-align: center;
+    
          
 }
 
@@ -74,6 +102,7 @@ h3 {
     text-align: center;
     font-size: $fuente-media;
     width: 60%;
+    
 }
 
 footer {
@@ -89,6 +118,5 @@ footer {
         font-size: 50px
     }
 }
-
 
 

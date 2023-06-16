@@ -1,8 +1,9 @@
 /*colores*/
 
-$color-pimario: #0aa5ff;
-$color-secundario: #ffffff;
+$color-pimario:  #ffffff;
+$color-secundario: #0aa5ff;
 $color-terciario: rgb(0, 0, 0);
+$color-4: rgb(6, 29, 238);
 
 
 /*fuentes*/
@@ -13,6 +14,8 @@ $fuente-media: 20px;
 
 
 /*Resoluciones*/
+
+$movil:150px;
 $tablet: 768px;
 $desktop: 992px;
 $desktopXG: 1200px;
