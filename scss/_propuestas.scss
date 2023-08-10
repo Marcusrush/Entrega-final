@@ -1,20 +1,15 @@
 
 .cards {
   
-   display:flex;
-   flex-direction: row;
-   flex-wrap: wrap;
+   display: flex;
+   flex-flow: row wrap;
    text-align: start;
    gap: 30px;
-   margin-top: 50px;
-   margin-bottom: 100px;
+   margin: 50px  110px 100px; 
    height: 100%;
-   margin-left: 110px;
-   margin-right: 110px;
    justify-content: center;
    align-items: center;
-   
-                       
+                          
 }
 
 .card {
